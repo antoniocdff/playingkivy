@@ -1,1 +1,1 @@
-pkg-config python-setuptools python-pygame python-opengl python-gst0.10 python-enchant gstreamer0.10-plugins-good python-dev build-essential libgl1-mesa-dev libgles2-mesa-dev python-pip wget
+pkg-config python-setuptools python-pygame python-opengl python-gst0.10 python-enchant gstreamer0.10-plugins-good python-dev build-essential libgl1-mesa-dev libgles2-mesa-dev python-pip wget openjdk-8-jdk gcj-jdk gcj-4.9-jdk ccache git lib32stdc++6 lib32z1 lib32z1-dev python2.7 python2.7-dev nzip zlib1g-dev zlib1g:i386

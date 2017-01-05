@@ -1,0 +1,36 @@
+<ScreenManagement>:
+    PaginaInicial:
+    LabelConfig:
+ 
+<PaginaInicial>:
+    name: 'paginaInicial'
+    BoxLayout:
+        orientation: 'vertical'
+        Image:
+            source: 'teste.jpg'
+        Label:
+            text: 'Kivy Works'
+             
+        Label:
+            text: 'Hello World!'
+             
+        Button:
+            on_release: app.root.switch_to_labelConfig()
+            text: 'Label'
+
+        Button:
+            on_release: app.root.vibrate()
+            text: 'Vibra'
+ 
+<LabelConfig>:
+    name: 'labelConfig'
+     
+    BoxLayout:
+        orientation: 'vertical'
+ 
+        Label:
+            text: 'Configurações de um widget Label'
+             
+        Button:
+            on_release: app.root.switch_to_paginaInicial()
+            text: 'Retorno'
